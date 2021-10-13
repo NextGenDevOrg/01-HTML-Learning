@@ -147,7 +147,7 @@ a.current {
 #contact {
   width: 1000px;
   margin: 0 auto;
-  background: inherited;
+  background: inherit;
 }
 #contact-us-page h1 {
   font-family: italic;
