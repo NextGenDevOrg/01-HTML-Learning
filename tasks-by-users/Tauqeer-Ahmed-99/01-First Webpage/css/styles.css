@@ -28,7 +28,7 @@ body {
 ul.first {
   text-align: right;
   list-style-type: none;
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .first li {
@@ -73,7 +73,7 @@ a.current {
   text-align: center;
   background-color: blanchedalmond;
   width: 100%;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 .span-list > h1 {
   font-family: italic;
@@ -196,7 +196,7 @@ a.current {
   font-family: arial;
   display: block;
   width: 180px;
-  margin: 0px;
+  margin: 0;
   border: 2px black dashed;
   text-align: center;
   color: black;
