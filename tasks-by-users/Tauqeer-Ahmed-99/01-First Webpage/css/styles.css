@@ -3,235 +3,212 @@ Created, maintained & Owned by: Tauqeer Khan
 Date: 16/07/21
 ******************************************/
 
-body{
-    font-family: arial;
-    margin: 10px auto;
-    background-color: lightgray;
-    
+body {
+  font-family: arial;
+  margin: 10px auto;
+  background-color: lightgray;
 }
 
-#Header{
-    width: 1000px;
-    margin: 20px auto;
-    background: white;    
-
+#Header {
+  width: 1000px;
+  margin: 20px auto;
+  background: white;
 }
 
-#main-heading h1{
-    font-family: italic;
-    font-weight: bolder;
+#main-heading h1 {
+  font-family: italic;
+  font-weight: bolder;
 }
 
-
-.first{
-    background: #181818;
-    padding: 10px;
-    
+.first {
+  background: #181818;
+  padding: 10px;
 }
 
-ul.first{
-    text-align: right;
-    list-style-type: none;
-    margin-right: 0px;
+ul.first {
+  text-align: right;
+  list-style-type: none;
+  margin-right: 0px;
 }
 
-.first li{
-    display: inline-block;
-    margin-left: 30px;
-    
+.first li {
+  display: inline-block;
+  margin-left: 30px;
 }
 
-.first a{
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 18px;
-    padding: 6px;
+.first a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 6px;
 }
 
-a.current{
-    background: #8f746c;
-    border-radius: 5px;
-    
+a.current {
+  background: #8f746c;
+  border-radius: 5px;
 }
-.first a:hover{
-    
-    font-weight: bolder;
-    border: 1px white solid;
-    box-shadow: 1px 1px 2px 1px rgba(250,250,250,0.8)
+.first a:hover {
+  font-weight: bolder;
+  border: 1px white solid;
+  box-shadow: 1px 1px 2px 1px rgba(250, 250, 250, 0.8);
 }
 
-#content{
-    text-align: center;
-    font-family: italic;
-    font-weight: bolder;
-    color: darkgrey;
+#content {
+  text-align: center;
+  font-family: italic;
+  font-weight: bolder;
+  color: darkgrey;
 }
 
-#Banner img{
-    width: 100%;
-    height: 500px}
-
-#Banner{
-    
-    background-color: lightgray;
-    
-    
-}
-.span-list{
-    text-align: center;
-    background-color: blanchedalmond
-        width: 100%;
-        margin: 0px auto;
-    
-}
-.span-list > h1{
-    font-family: italic;
-    font-weight: bolder;
+#Banner img {
+  width: 100%;
+  height: 500px;
 }
 
-.span-list a img{
-    display: block;
-    height: 140px;
-    width: 300px;
-    margin: 10px auto;
-    padding: 20px auto;
-    
+#Banner {
+  background-color: lightgray;
+}
+.span-list {
+  text-align: center;
+  background-color: blanchedalmond;
+  width: 100%;
+  margin: 0px auto;
+}
+.span-list > h1 {
+  font-family: italic;
+  font-weight: bolder;
 }
 
-#second a{ 
-    text-decoration: none;
-    font-family: italic;
-    color: black;
-    text-align: left;
-    font-weight: bolder;
-    
+.span-list a img {
+  display: block;
+  height: 140px;
+  width: 300px;
+  margin: 10px auto;
+  padding: 20px auto;
 }
 
-#second a img:hover{
-box-shadow: 4px 4px 8px 4px rgba(40,40,40,0.8)    
+#second a {
+  text-decoration: none;
+  font-family: italic;
+  color: black;
+  text-align: left;
+  font-weight: bolder;
 }
 
-
-#second a:hover{
-    color: blue;
-    text-decoration: underline;
-    text-transform: uppercase;
+#second a img:hover {
+  box-shadow: 4px 4px 8px 4px rgba(40, 40, 40, 0.8);
 }
 
-#second a:visited{
-    color: purple;
-}
-    
-#bottom{
-    background-color:lightblue;
-        
+#second a:hover {
+  color: blue;
+  text-decoration: underline;
+  text-transform: uppercase;
 }
 
-#bottom h1{
-    color: black;
-    font-family: italic;
-    font-weight: bolder;
-    font-size: 30px;
-}
-#bottom h2{
-    Color: black;
-    font-family: italic;
-    font-weight: bolder;
-    font-size: 20px;
+#second a:visited {
+  color: purple;
 }
 
-#bottom a{
-    text-decoration: none;
-    color: black;
-    display: block;
-    list-style-type: none;
-    padding: 10px;
-    margin:10px;
-    width:90px;
-    border: 2px black dashed;
-    text-align: center;
-     
+#bottom {
+  background-color: lightblue;
 }
 
-#bottom a:hover{
-    font-weight: bolder;
-    border: 3px black solid;
-    box-shadow: 2px 2px 4px 2px rgba(40,40,40,0.8)
-    
+#bottom h1 {
+  color: black;
+  font-family: italic;
+  font-weight: bolder;
+  font-size: 30px;
 }
-#contact{
-     width: 1000px;
-    margin: 0 auto;
-    background: inherited;    
-
-}
-#contact-us-page h1{
-    font-family: italic;
-    font-weight: bolder;
-    
+#bottom h2 {
+  color: black;
+  font-family: italic;
+  font-weight: bolder;
+  font-size: 20px;
 }
 
-#contact-us-page p{
-    font-family: arial;
-    font-size: 20px
+#bottom a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px;
+  width: 90px;
+  border: 2px black dashed;
+  text-align: center;
 }
 
-#go-back a{
-    text-decoration: none;
-    font-family: arial;
-    display: block;
-    width: 110px;
-    margin: 0px;
-    border: 2px black dashed;
-    text-align: center;
-    color: black
-      
+#bottom a:hover {
+  font-weight: bolder;
+  border: 3px black solid;
+  box-shadow: 2px 2px 4px 2px rgba(40, 40, 40, 0.8);
+}
+#contact {
+  width: 1000px;
+  margin: 0 auto;
+  background: inherited;
+}
+#contact-us-page h1 {
+  font-family: italic;
+  font-weight: bolder;
 }
 
-#go-back a:hover{
-    text-decoration: none;
-    font-family: arial;
-    display: block;
-    width: 110px;
-    margin: 10px;
-    font-weight: bolder;
-    border: 3px black solid;
-    box-shadow: 1px 1px 2px 1px rgba(40,40,40,0.8)
+#contact-us-page p {
+  font-family: arial;
+  font-size: 20px;
 }
 
-#about-us h1{
-    font-family: italic;
-    font-weight: bolder;
-    
+#go-back a {
+  text-decoration: none;
+  font-family: arial;
+  display: block;
+  width: 110px;
+  margin: 0px;
+  border: 2px black dashed;
+  text-align: center;
+  color: black;
 }
 
-#about-us p{
-    font-family: arial;
-    font-size:20px;
+#go-back a:hover {
+  text-decoration: none;
+  font-family: arial;
+  display: block;
+  width: 110px;
+  margin: 10px;
+  font-weight: bolder;
+  border: 3px black solid;
+  box-shadow: 1px 1px 2px 1px rgba(40, 40, 40, 0.8);
 }
 
-#customer{
-     text-decoration: none;
-    font-family: arial;
-    display: block;
-    width: 180px;
-    margin: 0px;
-    border: 2px black dashed;
-    text-align: center;
-    color: black
+#about-us h1 {
+  font-family: italic;
+  font-weight: bolder;
 }
 
-#customer:hover{
-    text-decoration: none;
-    font-family: arial;
-    display: block;
-    width: 180px;
-    margin: 10px;
-    font-weight: bolder;
-    border: 3px black solid;
-    box-shadow: 1px 1px 2px 1px rgba(40,40,40,0.8)
-    
+#about-us p {
+  font-family: arial;
+  font-size: 20px;
 }
 
+#customer {
+  text-decoration: none;
+  font-family: arial;
+  display: block;
+  width: 180px;
+  margin: 0px;
+  border: 2px black dashed;
+  text-align: center;
+  color: black;
+}
 
+#customer:hover {
+  text-decoration: none;
+  font-family: arial;
+  display: block;
+  width: 180px;
+  margin: 10px;
+  font-weight: bolder;
+  border: 3px black solid;
+  box-shadow: 1px 1px 2px 1px rgba(40, 40, 40, 0.8);
+}
