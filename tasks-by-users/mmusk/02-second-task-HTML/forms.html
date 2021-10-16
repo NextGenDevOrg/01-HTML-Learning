@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div align="center">
+      <h1>Employee Interests Survey Form</h1>
+      Enter Your name:
+      <input type="text" minlength="4" maxlength="20" placeholder="Your name" />
+      <br />
+
+      Enter Your department:
+      <input
+        type="text"
+        minlength="4"
+        maxlength="20"
+        placeholder="Your department"
+      />
+      <br />
+
+      Tell us a little bit about yourself:
+      <textarea name="Comments" cols="30" rows="4"></textarea>
+      <br />
+      Do you workout at home?
+      <input type="radio" value="Yes" />Yes <input type="radio" value="No" />No
+      <br />
+
+      How do you like to read about your favorite topic?<br />
+      <input type="checkbox" />Books <input type="checkbox" />Online PDFs
+      <input type="checkbox" />Kindle <input type="checkbox" />Magzine
+      <br />
+
+      What Genre of Movies do you Like?
+      <select name="movie">
+        <option></option>
+        <option value="1" selected="true">Comedy</option>
+        <option value="2" selected>Horror</option>
+        <option value="3" selected>Thriller</option>
+        <option value="4" selected>Biopic</option>
+      </select>
+      <br />
+
+      <input type="submit" value="Submit form" />
+    </div>
+  </body>
+</html>
