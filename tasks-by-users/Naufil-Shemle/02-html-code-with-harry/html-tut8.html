@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Froms</title>
+  </head>
+
+  <body>
+    <h2>This is HTML form tutorial</h2>
+    <form action="backend.php">
+      <label for="name">Name</label>
+      <div>
+        <input typ="text" name="myName" id="name" />
+      </div>
+      <br />
+      <!--  br is not recommended this gap will set by CSS-->
+      <div>
+        <label for="role">Role</label>
+        <input type="text" name="myRole" id="role" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="myEmail" id="email" />
+      </div>
+      <br />
+      <div>
+        <label for="date">Date</label>
+        <input type="date" name="myDate" id="date" />
+      </div>
+      <br />
+      <div>
+        <label for="bonus">Bonus</label>
+        <input type="number" name="myBonus" id="bonus" />
+      </div>
+      <br />
+      <div>
+        <label for="eligibility">Are you eligible</label>
+        <input type="checkbox" name="myEligibility" id="eligibility" />
+      </div>
+      <br />
+      <div>
+        Gender: Male <input type="radio" name="myGender" /> Female
+        <input type="radio" name="myGender" /> Others
+        <input type="radio" name="myGender" />
+      </div>
+      <br />
+      <div>
+        <label for="car">Car</label>
+        <select name="myCar" id="car">
+          <option value="ind">Indica</option>
+          <option value="swt" selected>Swift</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        Write about yourself: <br />
+        <textarea name="myText" cols="30" rows="10"></textarea>
+      </div>
+      <br />
+      <div>
+        <input type="submit" value="Submit Now" />
+        <input type="reset" value="Reset Now" />
+      </div>
+    </form>
+  </body>
+</html>
